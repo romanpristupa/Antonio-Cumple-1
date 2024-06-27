@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    width: 100vw;
     height: 1800px;
     background-color: #D4EFD0;
     text-align: center;
