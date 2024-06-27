@@ -35,20 +35,22 @@
     <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13101.721380577177!2d-58.192857999999994!3d-34.820271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32874e94f4587%3A0x2dff6270b9022a4a!2sLa%20Cirila%20Eventos!5e0!3m2!1ses-419!2sar!4v1719511515747!5m2!1ses-419!2sar" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
   <section>
-    <article >
+    <article>
       <a href="https://api.whatsapp.com/send?phone=5491159904862&text=Confirmo%C2%A0mi%C2%A0presencia">
         <button class="botonConfirmar botonAgendame"><i class="fa-solid fa-square-check"></i> Confirmar Presencia</button>
       </a>
+      <audio autoplay loop>
+        <source src="wet-fart-6139.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     </article>
-   
   </section>
   <footer>
     <img src="img/dinoroar.svg" alt="Dino Roar" class="footer-img">
   </footer>
-</body>
-<script type="text/javascript">
-  var final = moment("2024-07-21T13:00:00");
-  setInterval(function() {
+  <script type="text/javascript">
+    var final = moment("2024-07-21T13:00:00");
+    setInterval(function() {
       var inicio = moment();
       var duracion = final.diff(inicio);
       var intervalo = moment.duration(duracion);
@@ -58,7 +60,7 @@
       var segundos = intervalo.seconds();
       $("#resultado").html("Faltan " + dias + " Días");
       $("#minuto").html(horas + ":" + minutos + ":" + segundos );
-  }, 1000);
-</script>
+    }, 1000);
+  </script>
+</body>
 </html>
-
