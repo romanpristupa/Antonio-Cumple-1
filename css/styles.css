@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 95vw;
+    width: 450px;
     height: 1800px;
     background-color: #D4EFD0;
     margin: 0;
@@ -20,11 +20,11 @@ body {
 header img,
 footer img {
     width: 95vw;
-    padding-left: 25px;
+    
 }
 
 section h2 {
-    width: 95vw;
+    width: 450px;
 }
 
 .lacirilalogo {
@@ -117,10 +117,6 @@ section h2 {
     font-size: 1.5rem;
 }
 
-body section article img {
-    width: 70vw;
-    padding: 25px 0px;
-}
 
 .dinoRoar {
     width: 408.5px;
