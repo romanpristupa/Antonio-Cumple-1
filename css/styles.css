@@ -26,6 +26,7 @@ footer img {
 
 section h2 {
     width: 100%;
+    font-weight: bold;
 }
 
 .lacirilalogo {
@@ -33,7 +34,7 @@ section h2 {
 }
 
 .lacirilalogo img {
-    width: 200px;
+    width: 250px;
 }
 
 .botonAgendame {
@@ -90,12 +91,16 @@ section h2 {
 #resultado {
     margin-top: 25px;
     font-size: 1.5em;
+    color: #30B4B0;
+    font-weight: bold;
 }
 
 #minuto {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 1.5em;
+    color: #30B4B0;
+    font-weight: bold;
 }
 
 .mapa {
@@ -107,7 +112,9 @@ section h2 {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 1.1em;
 }
 
 .direccion h2 {
@@ -123,3 +130,7 @@ section h2 {
     margin: 0;
     padding: 0;
 }
+.enSalon{
+    font-weight: bold;
+}
+
