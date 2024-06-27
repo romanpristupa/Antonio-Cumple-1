@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
-    font-weight: 400;
+    font-weight: 100vw;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -13,7 +15,6 @@ body {
     width: 450px;
     height: 1800px;
     background-color: #D4EFD0;
-    margin: 0;
     text-align: center;
 }
 
