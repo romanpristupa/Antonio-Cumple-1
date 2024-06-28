@@ -15,7 +15,8 @@
 <body>
   <header>
     <img src="img/header.svg" alt="Foto Dino">
-    <audio autoplay loop src="wet-fart-6139.mp3" type="audio/mp3">
+    <audio id="background-audio" autoplay loop>
+      <source src="Hollow_Coves_-_Blessings.mp3" type="audio/mp3">
       Your browser does not support the audio element.
     </audio>
   </header>
@@ -60,6 +61,7 @@
       $("#resultado").html("Faltan " + dias + " Días");
       $("#minuto").html(horas + ":" + minutos + ":" + segundos );
     }, 1000);
+
   </script>
 </body>
 </html>
